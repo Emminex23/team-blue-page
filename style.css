@@ -32,3 +32,48 @@ body {
 }
 
 /* Edy CSS End */
+/* lynda start */
+.main1{
+    background-color:white;
+    height: fit-content;
+    /* margin: 2.5rem; */
+    display: flex;
+    /* width: fit-content; */
+    padding: 6rem;
+    
+}
+.learn-how-it-works{
+    color: rgb(17, 17, 85);
+    background-color: rgb(24, 155, 207);
+    border: none;
+    border-radius: 7px;
+    height: 2.5rem;
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}
+.handle{
+    color: rgb(17, 17, 85);
+}
+.section1{
+    width: 50%;
+}
+.sction2{
+    width: 50%;
+}
+button :hover{
+    background-color:pink;
+    color: purple;
+}
+.cartoon{
+    box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+    border-radius: 500px 500px 500px 500px ;
+    height: 18rem;
+    width:18rem ;
+    margin-left: 2.5rem;
+}
+.plans{
+    color: rgb(17, 17, 85);
+}
+/* lynda end */
