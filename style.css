@@ -90,9 +90,20 @@ button :hover{
 }
 /* mel ends */
 
+/* Lydia Starts */
+.img{
+  border-radius: 100%;
+  height: 23rem;
+  width: 23rem;
+  border-radius: 500px 500px 500px 500px;
+  box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+}
+.Lh1{
+  color: navy;
+}
 
 
-
+/* Lydia Ends */
 
 
 
