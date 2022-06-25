@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+/* Edy CSS Start */
+
+.img-travellers {
+  width: 500px;
+  height: 450px;
+  text-align: center;
+}
+
+.nav-bg {
+  background-color: #f2f4f3;
+}
+.nav-position {
+  position: fixed;
+}
+
+.Hero {
+  background-color: #29417d;
+  height: 650px;
+  color: #ffff;
+}
+
+.nav-style {
+  margin: auto 10px;
+}
+
+.nav-name {
+  font-weight: bold;
+}
+
+/* Edy CSS End */
