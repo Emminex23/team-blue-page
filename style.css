@@ -77,3 +77,36 @@ button :hover{
     color: rgb(17, 17, 85);
 }
 /* lynda end */
+/* mel starts */
+.image{
+  border-radius: 100%;
+  height: 23rem;
+  width: 23rem;
+  border-radius:500px 500px 500px 500px ;
+  box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+}
+.mel-h1{
+  color: rgb(17, 17, 85)
+}
+/* mel ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  .image{
+    height: 18rem;
+    width: 18rem;
+  }
+
+  
+}
