@@ -20,6 +20,9 @@ body {
   z-index: 9999;
   width: 100%;
 }
+.ediana{
+  padding: 3rem;
+}
 
 .Hero {
   background-color: #6b63ff;
@@ -46,7 +49,7 @@ body {
     background-color:white;
     height: fit-content;
     /* margin: 2.5rem; */
-    display: flex;
+    /* display: flex; */
     /* width: fit-content; */
     padding: 3rem;
     
@@ -147,7 +150,7 @@ button :hover{
   margin: 4rem;
 }
 .lydia2{
-  padding-left: 9rem;
+  padding-left: 15rem;
 }
 
 
