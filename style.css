@@ -11,14 +11,18 @@ body {
 }
 
 .nav-bg {
-  background-color: #f2f4f3;
+  background-color: rgb(245, 234, 234);
 }
 .nav-position {
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
 }
 
 .Hero {
-  background-color: #29417d;
+  background-color: #6b63ff;
   height: 650px;
   color: #ffff;
 }
@@ -30,6 +34,11 @@ body {
 .nav-name {
   font-weight: bold;
 }
+.btn1{
+  background-color: #6b63ff;
+  border: none;
+  border-radius: 7px;
+}
 
 /* Edy CSS End */
 /* lynda start */
@@ -39,12 +48,12 @@ body {
     /* margin: 2.5rem; */
     display: flex;
     /* width: fit-content; */
-    padding: 6rem;
+    padding: 3rem;
     
 }
 .learn-how-it-works{
     color: rgb(17, 17, 85);
-    background-color: rgb(24, 155, 207);
+    background-color: #6b63ff;
     border: none;
     border-radius: 7px;
     height: 2.5rem;
@@ -62,16 +71,18 @@ body {
 .sction2{
     width: 50%;
 }
+
 button :hover{
-    background-color:pink;
+    /* background-color:purple; */
     color: purple;
 }
 .cartoon{
-    box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+    box-shadow: 5px 5px 5px 5px #6b63ff;
     border-radius: 500px 500px 500px 500px ;
     height: 18rem;
     width:18rem ;
-    margin-left: 2.5rem;
+    margin-right: 5rem;
+    
 }
 .plans{
     color: rgb(17, 17, 85);
@@ -80,28 +91,48 @@ button :hover{
 /* mel starts */
 .image{
   border-radius: 100%;
-  height: 23rem;
-  width: 23rem;
+  height: 18rem;
+  width: 18rem;
   border-radius:500px 500px 500px 500px ;
-  box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+  box-shadow: 5px 5px 5px 5px #6b63ff;
+  margin-left: 18rem;
+}
+.mels-main{
+  padding: 3rem;
+}
+.sectiona{
+  width: 50%;
+}
+.sectionb{
+  width: 50%;
+  padding-left: 8rem;
 }
 .mel-h1{
   color: rgb(17, 17, 85)
 }
+.btn2{
+  background-color: #6b63ff;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  color: rgb(17, 17, 85);
+}
+
 /* mel ends */
 
 /* Lydia Starts */
 .img{
   border-radius: 100%;
-  height: 23rem;
-  width: 23rem;
+  height: 18rem;
+  width: 18rem;
   border-radius: 500px 500px 500px 500px;
-  box-shadow: 5px 5px 5px 5px rgb(44, 162, 209);
+  box-shadow: 5px 5px 5px 5px  #6b63ff;
+  margin-left: 9rem;
+
 }
 .Lh1{
-  color: navy;
+  color: rgb(17, 17, 85);
 }
-
 
 /* Lydia Ends */
 
@@ -110,33 +141,108 @@ button :hover{
   background-color:rgb(245, 234, 234);
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+  padding: 3rem;
 }
-.travel{
+.lydia{
+  margin: 4rem;
+}
+.lydia2{
+  padding-left: 9rem;
+}
+
+
+.travell{
   text-align: center;
-  color: midnightblue;
   padding: 0.5rem;
   margin-top: 5px;
-}
-.see{
-  padding: 5px;
-  background-color: rgb(2, 85, 179);
-  border: none;
-  color: white;
-  border-radius: 5rem;
-}
-.responsive{
-  width: 50rem;
-  max-height:auto;
-  margin-top: 2rem;
-  margin-left: 15rem;
-  border-radius: 20px;
-  }
+  justify-content: center;
+  color: rgb(17, 17, 85);
   
+}
+.travel1{
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+
+.see{
+  padding: 1rem;
+  background-color: #6b63ff;
+  border: none;
+  color: rgb(17, 17, 85);
+  border-radius: 7px;
+
+}
+.guy{
+  justify-content: center;
+  width: 50rem;
+  margin-left: 21rem;
+  padding: 2rem;
+  
+  
+  
+  }
+  .team{
+    
+  }
   /* cyril end */
 
+/* Emmanuel starts */
+img{
+  width: 40rem;
+  height: 15rem;
+}
 
+.main1{
+  justify-content: center;
+  margin: 3rem;
+  
+}
+.travel{
+  margin-right: 25rem;
+  padding-bottom: 4rem;
+}
+.buddy{
+  padding-bottom: 3rem;
+}
+.icons{
+  height: 2rem;
+  width: 2rem;
+}
+.icons1{
+  height: 2.5rem;
+  width: 3rem;
+}
+.icons2{
+  height: 1.3rem;
+  width: 1.8rem;
+}
+.icons3{
+  height: 1.5rem;
+  width: 2rem;
+  margin-left: 1rem;
 
+}
+.icons5{
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding-top: 5px;
+  
+}
 
+.rights{
+  justify-content: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+.words :hover{
+  color: rgb(26, 26, 165);
+}
+/* Emmanuel ends */
 
 
 
